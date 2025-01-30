@@ -12,7 +12,7 @@ function About() {
         style={styles.photo}
       />
       <p style={styles.text}>
-        I am a junior studying ECE at Cornell University. My passions involve physics, athletics, and reading. I'm looking forward to building cool robotics projects!
+        I am a senior studying ECE at Cornell University. My passions involve physics, athletics, and reading. I'm looking forward to building cool robotics projects!
       </p>
       <p style={styles.text}>
         <strong>Class Number:</strong> ECE 4160 (Fast Robots)
