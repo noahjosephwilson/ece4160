@@ -9,7 +9,7 @@
     "react-router-dom": "^7.1.4",
     "react-scripts": "5.0.1"
   },
-  "homepage": "https://noahjosephwilson.github.io/ece4160/",
+  "homepage": "https://noahjosephwilson.github.io/ece4160",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
