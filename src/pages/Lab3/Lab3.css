@@ -1,0 +1,29 @@
+.lab3 {
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .lab3 h1,
+  .lab3 h2,
+  .lab3 h3 {
+    color: #6a0dad;
+    margin-bottom: 1rem;
+  }
+  
+  .lab3 p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .lab3 img,
+  .lab3 video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+  

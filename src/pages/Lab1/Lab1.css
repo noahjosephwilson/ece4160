@@ -1,0 +1,46 @@
+.lab1 {
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .lab1 h1,
+  .lab1 h2,
+  .lab1 h3 {
+    color: #6a0dad;
+    margin-bottom: 1rem;
+  }
+  
+  .lab1 p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .lab1 ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .lab1 li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .lab1 img,
+  .lab1 video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  .center-image {
+    display: block;
+    margin: 0 auto;
+  }
