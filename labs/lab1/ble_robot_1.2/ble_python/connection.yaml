@@ -1,6 +1,6 @@
 artemis_address: 'c0:c3:f5:25:05:51'
 
-ble_service: '5182cd2b-c8cc-49fa-9578-ae4b0505a58a'
+ble_service: 'fedba53e-55a9-44ba-92c0-f3db67cb6012'
 
 characteristics:
   TX_CMD_STRING: '9750f60b-9c9c-4158-b620-02ec9521cd99'

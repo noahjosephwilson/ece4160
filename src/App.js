@@ -1,49 +1,29 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import About from './components/About';
-import Labs from './components/Labs';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import AboutMe from './pages/AboutMe/AboutMe';
+import Lab1 from './pages/Lab1/Lab1';
+import Lab2 from './pages/Lab2/Lab2';
+import Lab3 from './pages/Lab3/Lab3';
+import './App.css';
 
 function App() {
   return (
     <Router>
-      {/* Simple navigation bar */}
-      <nav style={styles.navBar}>
-        <ul style={styles.navList}>
-          <li><Link to="/about" style={styles.navItem}>About Me</Link></li>
-          <li><Link to="/labs" style={styles.navItem}>Labs</Link></li>
-        </ul>
-      </nav>
-
-      {/* Routes for different pages */}
-      <Routes>
-        {/* Default route can be About or whichever you prefer */}
-        <Route path="/" element={<About />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/labs" element={<Labs />} />
-      </Routes>
+      <div className="app-container">
+        <Sidebar />
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<AboutMe />} />
+            <Route path="/lab1" element={<Lab1 />} />
+            <Route path="/lab2" element={<Lab2 />} />
+            <Route path="/lab3" element={<Lab3 />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </main>
+      </div>
     </Router>
   );
 }
-
-// Optional inline styles (replace with CSS if you want)
-const styles = {
-  navBar: {
-    background: '#f0f0f0',
-    padding: '10px'
-  },
-  navList: {
-    listStyleType: 'none',
-    display: 'flex',
-    gap: '15px',
-    margin: 0,
-    padding: 0
-  },
-  navItem: {
-    textDecoration: 'none',
-    color: 'black',
-    fontWeight: 'bold'
-  }
-};
 
 export default App;
